@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -63,21 +64,28 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.nav_camera -> {
                 // Handle the camera action
+                Toast.makeText(getApplicationContext(), "Camera clicked", Toast.LENGTH_LONG).show()
+
             }
             R.id.nav_gallery -> {
-//fdfdfdfdfdfd
+
             }
             R.id.nav_slideshow -> {
-///fdfdfdfdfdf
+
+                Toast.makeText(getApplicationContext(), "Gallery clicked", Toast.LENGTH_LONG).show()
+            }
+            R.id.nav_slideshow -> {
+                Toast.makeText(getApplicationContext(), "Slideshow clicked", Toast.LENGTH_LONG).show()
+
             }
             R.id.nav_manage -> {
-
+                Toast.makeText(getApplicationContext(), "Manage clicked", Toast.LENGTH_LONG).show()
             }
             R.id.nav_share -> {
-
+                Toast.makeText(getApplicationContext(), "share clicked", Toast.LENGTH_LONG).show()
             }
             R.id.nav_send -> {
-
+                Toast.makeText(getApplicationContext(), "send clicked", Toast.LENGTH_LONG).show()
             }
         }
 
