@@ -1,5 +1,6 @@
 package com.example.rajeshk.gittestproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -21,6 +22,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
+            val intent = Intent(this,Main2Activity::class.java)
+            startActivity(intent)
         }
 
         val toggle = ActionBarDrawerToggle(
