@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 ///fdfdfdfdfdf
             }
             R.id.nav_manage -> {
-
+//commenty skdksdbsdhshdhkls
             }
             R.id.nav_share -> {
 
