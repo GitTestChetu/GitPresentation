@@ -74,8 +74,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
                 Toast.makeText(getApplicationContext(), "Gallery clicked", Toast.LENGTH_LONG).show()
             }
+
             R.id.nav_slideshow -> {
                 Toast.makeText(getApplicationContext(), "Slideshow clicked", Toast.LENGTH_LONG).show()
+            }
+            R.id.nav_manage -> {
 
             }
             R.id.nav_manage -> {
